@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Higher Secondary Education",
+    "organisation": "Chhotakhelna Surendra Smriti Vidyamandir",
+    "startDate": "Sept, 2013",
+    "endDate": "June,2021",
+    "experiences": ["passing out HS"],
+    "imageSrc": "history/hs.png"
+  },
+  {
+    "role": "Chitkara University",
+    "organisation": "Computer Science Engineering",
+    "startDate": "Aug ,2021",
+    "endDate": "Present [Expected: May 2025]",
+    "experiences": ["Study in chitkara university","Full Stack Devoloper"],
+    "imageSrc": "history/logo (2) (1).png"
+  }
+]
