@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Shopsite E-Commerce",
+    "imageSrc": "projects/shopsite.png",
+    "description": "E-commerce project showcasing Node Js,Express,MongoDb,Ejs admin-user interaction, seamless navigation.",
+    "skills": ["Node Js","Express","MongoDb","Ejs"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/sujoyghoshal/Shopsite"
+  },
+  {
+    "title": "vidTube",
+    "imageSrc": "projects/youtube.png",
+    "description": "VidTube project: HTML, CSS, Bootstrap. Modern video platform with responsive design. User-friendly discovery",
+    "skills": ["Html", "Javascript", "Boostrap","React"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/sujoyghoshal/Youtubeclone"
+  },
+  {
+    "title": "Weather-App",
+    "imageSrc": "projects/weather.png",
+    "description": "Weather app: Utilizes API, Ajax, JavaScript. Real-time weather updates, responsive design. Intuitive interface  & Temparature...",
+    "skills": ["Api", "Ajax", "Javascript","Css"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/sujoyghoshal/Wather-App"
+  }
+]
