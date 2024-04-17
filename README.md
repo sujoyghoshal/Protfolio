@@ -33,12 +33,9 @@ The project involves building a portfolio website using React with Vite for rapi
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/sujoyghoshal/Protfolio.git
-
-2. Deploy:
+1. Deploy in vercal:
 
 ```bash
 https://sujoyghoshal.vercel.app/
+
+
