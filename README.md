@@ -37,3 +37,8 @@ To run this project locally, follow these steps:
 
 ```bash
 git clone https://github.com/sujoyghoshal/Protfolio.git
+
+2. Deploy:
+
+```bash
+https://sujoyghoshal.vercel.app/
