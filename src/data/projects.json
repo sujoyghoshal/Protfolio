@@ -8,12 +8,36 @@
     "source": "https://github.com/sujoyghoshal/Shopsite"
   },
   {
-    "title": "vidTube",
-    "imageSrc": "projects/youtube.png",
-    "description": "VidTube project: HTML, CSS, Bootstrap. Modern video platform with responsive design. User-friendly discovery",
-    "skills": ["Html", "Javascript", "Boostrap","React"],
+    "title": "ConnectSphere",
+    "imageSrc": "projects/connectsphare.png",
+    "description": "ConnectSphere is a job portal application designed to connect students, job recruiters, and companies.",
+    "skills": ["React","Nodejs","cloudnary","Hooks"],
     "demo": "https://www.example.com",
-    "source": "https://github.com/sujoyghoshal/Youtubeclone"
+    "source": "https://github.com/sujoyghoshal/ConnectSphere"
+  },
+  {
+    "title": "School Management",
+    "imageSrc": "projects/schoolmamanagement.png",
+    "description": "A MERN stack-based school management system with distinct panels for admins, teachers, and students.",
+    "skills": ["React","Express","MongoDb","Nodejs"],
+    "demo": "https://66c4879744c03a079596ddf5--aesthetic-blini-cb3c03.netlify.app/",
+    "source": "https://github.com/sujoyghoshal/School-Management-System"
+  },
+  {
+    "title": "RealTime Pizza",
+    "imageSrc": "projects/pizza.png",
+    "description": "A real-time pizza application using Node.js, MongoDB, EJS, and Bootstrap. The app features live order tracking.",
+    "skills": ["Node Js","Express","MongoDb","Ejs"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/sujoyghoshal/RealTime-Pizza-Tracker"
+  },
+  {
+    "title": "Car Showroom",
+    "imageSrc": "projects/car.png",
+    "description": "This Java-based Car Showroom Management System leverages using Object-Oriented Programming (OOP).",
+    "skills": ["Java", "OOPS","Ui/UX"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/sujoyghoshal/Car-Showroom-Management-System"
   },
   {
     "title": "Weather-App",

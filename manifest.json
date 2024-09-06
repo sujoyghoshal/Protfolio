@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "sujoy",
+    "description": "Get a new Jokes EveryDay",
+    "version": "1.0",
+    "action":{
+        "default_popup":"popup.html",
+        "default_icon":"logo.png"
+    }
+}
