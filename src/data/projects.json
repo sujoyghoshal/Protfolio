@@ -28,7 +28,7 @@
     "imageSrc": "projects/pizza.png",
     "description": "A real-time pizza application using Node.js, MongoDB, EJS, and Bootstrap. The app features live order tracking.",
     "skills": ["Node Js","Express","MongoDb","Ejs"],
-    "demo": "https://www.example.com",
+    "demo": "https://sujoy-pizza.onrender.com/",
     "source": "https://github.com/sujoyghoshal/RealTime-Pizza-Tracker"
   },
   {
