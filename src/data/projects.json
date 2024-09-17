@@ -12,7 +12,7 @@
     "imageSrc": "projects/connectsphare.png",
     "description": "ConnectSphere is a job portal application designed to connect students, job recruiters, and companies.",
     "skills": ["React","Nodejs","cloudnary","Hooks"],
-    "demo": "https://www.example.com",
+    "demo": "https://connect-sphere-client.vercel.app/",
     "source": "https://github.com/sujoyghoshal/ConnectSphere"
   },
   {
