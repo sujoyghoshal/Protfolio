@@ -55,8 +55,6 @@
   z-index: 1;
 
   animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 
