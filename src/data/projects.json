@@ -44,7 +44,7 @@
     "imageSrc": "projects/weather.png",
     "description": "Weather app: Utilizes API, Ajax, JavaScript. Real-time weather updates, responsive design. Intuitive interface  & Temparature...",
     "skills": ["Api", "Ajax", "Javascript","Css"],
-    "demo": "https://www.example.com",
-    "source": "https://github.com/sujoyghoshal/Wather-App"
+    "demo": "https://weather-app-rouge-one-64.vercel.app/",
+    "source": "https://github.com/sujoyghoshal/weather-App.git"
   }
 ]
