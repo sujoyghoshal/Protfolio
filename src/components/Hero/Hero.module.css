@@ -1,5 +1,6 @@
 @import "../../vars.css";
 
+/* Main Container */
 .container {
   position: relative;
   display: flex;
@@ -9,8 +10,10 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  padding: 20px;
 }
 
+/* Content Section */
 .content {
   display: flex;
   flex-direction: column;
@@ -19,6 +22,7 @@
   z-index: 1;
 }
 
+/* Title Styling */
 .title {
   font-size: 72px;
   font-weight: 900;
@@ -33,12 +37,14 @@
   -webkit-background-clip: text;
 }
 
+/* Description Styling */
 .description {
   font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
 }
 
+/* Contact Button Styling */
 .contactBtn {
   text-decoration: none;
   background-color: var(--color-primary);
@@ -48,12 +54,17 @@
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
 }
 
+.contactBtn:hover {
+  background-color: var(--color-primary-dark);
+}
+
+/* Hero Image Styling */
 .heroImg {
   width: 50%;
   z-index: 1;
-
   animation-name: floating;
   animation-timing-function: ease-in-out;
 }
@@ -70,11 +81,11 @@
   }
 }
 
+/* Top Blur */
 .topBlur {
   position: absolute;
   width: 50vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 350px;
   top: -128px;
   left: -10vw;
@@ -84,12 +95,12 @@
   z-index: 0;
 }
 
+/* Bottom Blur */
 .bottomBlur {
   position: absolute;
   width: 70vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 250px;
   top: 246px;
   right: -25vw;
   border-radius: 764px;
@@ -98,12 +109,103 @@
   z-index: 0;
 }
 
+/* Responsive for tablets and mobile devices */
+@media screen and (max-width: 1200px) {
+  .title {
+    font-size: 60px;
+  }
+
+  .description {
+    font-size: 26px;
+  }
+
+  .heroImg {
+    width: 45%;
+  }
+}
+
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .content {
     align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .description {
+    font-size: 24px;
+  }
+
+  .heroImg {
+    width: 60%;
+  }
+
+  .topBlur, .bottomBlur {
+    width: 80vw;
+    height: 40vw;
+    min-width: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin-top: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .description {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .contactBtn {
+    font-size: 24px;
+    padding: 14px 20px;
+  }
+
+  .heroImg {
+    width: 75%;
+  }
+
+  .topBlur, .bottomBlur {
+    width: 60vw;
+    height: 30vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .contactBtn {
+    font-size: 22px;
+    padding: 12px 18px;
+  }
+
+  .heroImg {
+    width: 80%;
+  }
+
+  .topBlur, .bottomBlur {
+    width: 50vw;
+    height: 25vw;
   }
 }
