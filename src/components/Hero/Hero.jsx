@@ -4,7 +4,7 @@ import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
   const downloadResume = () => {
-    window.open("https://drive.google.com/uc?export=download&id=1RRMXafT0rdmLpxowBn7jW7ut-6ih4hTR", "_blank");
+    window.open("https://drive.google.com/file/d/1pcUY8RVUzhTPlrYUe8rnFBvPMkzKpJ3q/view?usp=sharing", "_blank");
   };
 
   return (
