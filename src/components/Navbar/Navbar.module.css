@@ -8,6 +8,7 @@
   padding-top: 61px;
   z-index: 2;
   margin: 0 10%;
+  transition: all 0.3s ease-in-out;
 }
 
 .title {
@@ -16,7 +17,6 @@
   text-decoration: none;
   color: var(--color-text);
 }
-
 
 .menuBtn {
   display: none;
@@ -30,24 +30,31 @@
   display: flex;
   gap: 47px;
   list-style: none;
+  transition: all 0.3s ease;
 }
 
 .menuItems a {
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menuItems a:hover {
+  color: var(--color-primary);
 }
 
 @media screen and (max-width: 830px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    margin: 0 5%;
   }
 
   .menu {
     position: absolute;
     right: 0;
-    margin-right: 10%;
+    margin-right: 5%;
     flex-direction: column;
     align-items: flex-end;
     gap: 11px;
@@ -57,6 +64,11 @@
   .menuBtn {
     display: block;
     cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .menuBtn:hover {
+    transform: scale(1.1);
   }
 
   .menuItems {
@@ -73,10 +85,14 @@
     );
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.4s ease-in-out;
   }
 
   .menuOpen {
     display: flex;
-    z-index: 1;
+    opacity: 1;
+    transform: translateY(0);
   }
 }
